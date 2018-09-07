@@ -1,3 +1,7 @@
+* {
+    margin:0;
+}
+
 .container {
     text-align: center;
     font-family: 'Comfortaa';
@@ -7,6 +11,8 @@ nav {
     text-align: right;
     margin-bottom: 2rem;
     margin-top: 2rem;
+   
+    
   
     
 }
@@ -17,6 +23,7 @@ display:inline;
 margin-left: 1rem;
 margin-right: 1rem;
 font-size: 1.5rem;
+color: #315240;
 }
 
 header {
@@ -36,3 +43,44 @@ h1 {
    color: #315240;
    padding-bottom: 4rem;
 }
+
+.description {
+    background-color: #EEEAD4;
+    color:#5C9C50;
+    height:8rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    padding: 4rem; 
+}
+
+.dddb {
+    background-color: #315240;
+    padding: 4rem;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.dddb h2 {
+    font-size: 3rem;
+}
+
+.dddb p {
+    font-size: 1.3rem; 
+}
+
+.dddb>div {
+    padding: 2rem;
+    color: #EEEAD4;
+}
+
+.dddb h2 {
+    padding-bottom: 4rem;
+   
+}
+
+
+
+
