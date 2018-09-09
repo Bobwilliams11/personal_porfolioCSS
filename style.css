@@ -100,7 +100,7 @@ h1 {
 
 .skill {
     background-color: #EEEAD4;
-    padding: 6rem;
+    padding: 1rem 6rem 6rem 6rem;
     font-size: 2rem;
     text-align: start;
     line-height: 5rem;
@@ -119,13 +119,22 @@ h1 {
     background-color:#90A17C;
     padding: 4rem;
     display: grid;  
-    grid-template-columns: repeat(6 1fr);
-    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33% ;
+    line-height: 2rem;
+
      
 }
 
-.portfolios h2 {
+.portfoliotitle h2 {
     font-size: 4rem;
+    color: #EEEAD4;
+    padding-top: 2rem;
+}
+
+.portfoliotitle {
+    background-color:#90A17C;
+  
 }
 
 .aboutme {
