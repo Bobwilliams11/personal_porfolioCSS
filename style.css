@@ -11,17 +11,24 @@ nav {
     text-align: right;
     margin-bottom: 2rem;
     margin-top: 2rem;
-   
-    
-  
-    
+
 }
 
+nav .burger {
+    display: none;
+    font-size: 3rem;
+    padding: 0;
+    color: #315240;
+}
+   
+nav .burger::after {
+        content: "\2630";
+    }   
+    
 .logo {
     position: absolute;
     top:0;
-    left:0; 
-    
+    left:0;     
   
 }
 
@@ -113,6 +120,39 @@ h1 {
     text-align: center;
 }
 
+.progress {
+    display: flex;
+    height: 2.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .progress .label {
+    flex: 0 0 8rem;
+  
+    height: 2.4rem;
+  
+    background-color: #444;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+  
+  .progress .bar {
+    flex: 1;
+  
+    height: 2.4rem;
+  
+    background-color: #d6d6d6;
+  
+    line-height: 2.4rem;
+  }
+  
+  .progress .knob {
+    height: 2.4rem;
+  
+    background-color: #315240;
+  }
 
 
 .portfolios {
@@ -140,7 +180,7 @@ h1 {
 .aboutme {
     display: flex;
     padding: 6rem;
-    flex-wrap: wrap;
+    
     
 }
 
@@ -304,6 +344,69 @@ footer h2 {
     font-size: 3rem;
     padding-bottom: 2rem;   
 }
+
+@media screen and (max-width: 1050px) {
+        nav a {
+            display: none;
+        
+        }
+
+        nav .burger {
+            display: block;
+            justify-items: center;
+            background: transparent;
+        }
+
+        nav:hover nav {
+            display: block;
+            background: transparent;
+        }
+
+      
+        
+
+
+    }  
+
+    
+   
+
+
+
+
+
+   /* .logo {
+       display: none;
+   }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        
+      
+    } 
+    
+    nav a {
+        font-size: 0.8rem;
+        justify-items: center;  
+        padding: 0.5rem;
+    }
+
+ 
+    header {
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 0;
+     
+        
+
+    }*/
+
+   
+
+
 
    
 
